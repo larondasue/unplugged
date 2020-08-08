@@ -326,6 +326,11 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
   margin: 0;
   text-align: center;
@@ -531,6 +536,18 @@ input[type=button] {
         margin: 100px 0;
         }
 
+  h1,
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+  }
+
+  h3,
+  h4 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+
 /* Header */
 
         header {
@@ -543,8 +560,12 @@ input[type=button] {
           width: 100%;
         }
 
-        header nav {
+        header figure {
           width: 30%;
+        }
+
+        header nav {
+          width: 25%;
         }
 
         header nav ul {
