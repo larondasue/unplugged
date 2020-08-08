@@ -525,7 +525,7 @@ input[type=button] {
    Modify as content requires.
    ========================================================================== */
 @media only screen and (min-width: 768px) {
-/* General styles */
+/* General Tablet Styles */
   .content-wrapper {
         max-width: 640px;
         margin: 100px 0;
@@ -635,6 +635,10 @@ input[type=button] {
       width: 45%;
     }
 
+  .map figure {
+      padding-bottom: 45.5%;
+    }
+
 .contact-section .content-wrapper h2 {
         width: 80%;
       }
@@ -662,9 +666,29 @@ input[type=button] {
 
 @media only screen and (min-width: 1200px) {
 /*Desktop styles here */
-    .content-wrapper {
-         max-width: 960px;
-    }
+
+header {
+  padding: 15px 0;
+}
+
+.content-wrapper {
+  max-width: 960px;
+}
+
+h1,
+h2 {
+  font-size: 2.25em;ß
+}
+
+h3,
+h4 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 1.333;
+}
 
      /* Hero */
     .hero-area h1 {
@@ -701,8 +725,12 @@ input[type=button] {
     .mission h2,
     .contact-section .content-wrapper h2 {
         width: 95%;
+        font-size: 3em;
     }
 
+    .map figure {
+        padding-bottom: 37%;
+      }
 
 /* ***Faq Page*** */
 .faq .content-wrapper {
