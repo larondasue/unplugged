@@ -199,7 +199,7 @@ header nav ul {
 }
 
 header nav ul li {
-  font-size: 1.125;
+  font-size: 1.125em;
 }
 
 footer {
@@ -230,6 +230,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
  footer .copyright {
@@ -623,22 +631,37 @@ input[type=button] {
 
 
         /* Footer */
-        footer .content-wrapper {
+    footer .content-wrapper {
           width: 65%;
           margin: 100px 0;
         }
 
-        .footer-content {
+    footer  .footer-content {
           display: flex;
           justify-content: space-between;
           align-items: center;
+          flex-direction: row;
         }
 
-      footer .contact {
+    footer .contact {
           margin-bottom: 0;
       }
 
-      footer .copyright {
+    footer h4 {
+      font-size: 1.5em;
+      margin-bottom: 40px;
+    }
+
+    footer p {
+      line-height: 1.285em;
+    }
+
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
+    }
+
+    footer .copyright {
           width: 100%;
       }
 
@@ -713,7 +736,8 @@ p {
 
      /* Hero */
     .hero-area h1 {
-        width: 60%;
+        font-size: 3.75;
+        width: 80%;
     }
 
     /* Aside */
@@ -726,21 +750,36 @@ p {
         width: 30%;
     }
 
+    .form-description p {
+      font-size: 1.125em;
+    }
+
     /* Features */
     .features h2 {
         width: 90%;
     }
 
     .features article {
-        flex-basis: 30%;
+        flex-basis: 33%;
     }
 
     /* Reviews */
-    .reviews article div {
+  .reviews h2 {
+    padding-bottom: 50px;
+  }
+
+  .reviews article div {
         width: 45%;
     }
 
+  footer h4 {
+    font-size: 1.875em;
+  }
+
 /* ***About Page*** */
+  .map figure {
+    padding-bottom: 37.5%;
+  }
 
 
     .mission h2,
