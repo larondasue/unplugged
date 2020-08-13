@@ -102,7 +102,8 @@ body {
 ul,
 ol {
   list-style: none;
-
+  margin: 0;
+  padding: 0;
    }
 
 a {
@@ -113,15 +114,16 @@ a {
 h1,
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.87em;
+  font-size: 2.45em;
   font-weight: 500;
+  margin: 0;
    }
 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
   margin: 20px 0;
-  font-size: 1.123em;
+  font-size: 1.125em;
   font-weight: 500;
   margin: 20px 0;
    }
@@ -130,6 +132,14 @@ p {
   font-size: .88em;
   line-height: 1.3em;
    }
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
 
 address {
   font-style: normal;
@@ -159,7 +169,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background: black;
+  background: #202322;
 }
 
 header {
@@ -167,6 +177,14 @@ header {
 }
 header .content-wrapper {
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header figure {
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,14 +265,6 @@ footer .social-icons p i {
 
 /* ***Mobile Styles - Homepage*** */
 
-header figure {
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row-wrap;
-}
-
 
 .hero-area {
   display: flex;
@@ -262,11 +272,11 @@ header figure {
   flex-flow: row wrap;
   background: url('../img/hero.jpg') center no-repeat #527158;
   background-size: cover;
-  height: 490px;
+  min-height: 500px;
 }
 
 .hero-area h1 {
-  font-size: 2.25em;
+  font-size: 2.375em;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   line-height: 1.2;
